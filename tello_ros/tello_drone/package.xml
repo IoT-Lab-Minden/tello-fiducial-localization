@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tello_drone</name>
+  <version>0.0.0</version>
+  <description>The tello_drone package</description>
+  <maintainer email="andre.kirsch@fh-bielefeld.de">André Kirsch</maintainer>
+  <license>TODO: License declaration</license>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+  <depend>tello_bringup</depend>
+  <depend>tello_description</depend>
+  <depend>tello_driver</depend>
+  <depend>tello_meshes</depend>
+  <depend>tello_msgs</depend>
+  
+</package>

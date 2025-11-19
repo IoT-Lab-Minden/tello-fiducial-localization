@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aruco_detect</name>
+  <version>0.11.0</version>
+  <description>Fiducial detection based on the aruco library</description>
+
+  <maintainer email="jimv@mrjim.com">Jim Vaughan</maintainer>
+  <maintainer email="send2arohan@gmail.com">Rohan Agrawal</maintainer>
+
+  <license>BSD</license>
+
+  <author email="jimv@mrjim.com">Jim Vaughan</author>
+
+  <depend>rclcpp</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  <depend>visualization_msgs</depend>
+  <depend>vision_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>fiducial_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>geometry_msgs</depend>
+  
+  <!-- <depend>python-cairosvg</depend> Installed via pip3 install cairosvg -->
+  <depend>python3-joblib</depend>
+  <test_depend>ros_testing</test_depend>
+  <test_depend>ament_cmake_test</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_gmock</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

@@ -1,0 +1,17 @@
+std_msgs/Header header
+float32 pitch
+float32 roll
+float32 yaw
+float32 vgx
+float32 vgy
+float32 vgz
+float32 templ
+float32 temph
+float32 tof
+float32 h
+float32 bat
+float32 baro
+float32 time
+float32 agx
+float32 agy
+float32 agz
