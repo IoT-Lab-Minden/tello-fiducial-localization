@@ -50,6 +50,10 @@ Please cite the following paper in your publications, if you use this work:
 }
 ```
 
+## Acknowledgments
+
+This project is a result of the project funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - project number 465783762.
+
 ## License
 
 This [work](https://github.com/IoT-Lab-Minden/fiducial_localisation_tello) is licensed under [BSD-3-Clause license](LICENSE.md).
